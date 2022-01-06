@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "VDC",
+    "slug": "app-vdc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#fff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.techgoodway.vdc",
+      "buildNumber": "6",
+      "usesAppleSignIn": true,
+      "supportsTablet": false,
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": ""
+        }
+      },
+      "googleServicesFile": "./",
+      "infoPlist": {
+        "CFBundleAllowMixedLocalizations": true,
+        "UIBackgroundModes": []
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#fff"
+      },
+      "package": "com.techgoodway.vdc",
+      "versionCode": 9,
+      "icon": "./assets/icon.png",
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE", "INTERNET"],
+      "googleServicesFile": "./google-services.json"
+    },
+    "notification": {
+      "icon": "./assets/icon_notifications.png",
+      "color": "#ffffff",
+      "androidMode": "default"
+    },
+    "scheme": "app-vdc",
+    "facebookScheme": "fb3125414737678520",
+    "facebookAppId": "3125414737678520",
+    "facebookDisplayName": "VDC",
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

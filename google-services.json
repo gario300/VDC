@@ -1,0 +1,214 @@
+{
+  "project_info": {
+    "project_number": "724740205785",
+    "firebase_url": "https://tgw-test.firebaseio.com",
+    "project_id": "tgw-test",
+    "storage_bucket": "tgw-test.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724740205785:android:047b38ad84f1f2c374e2c8",
+        "android_client_info": {
+          "package_name": "com.mouveup.bienchezmoi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNijtvSwTVMoT1c1MzMBXETox3NOh1O64"
+        },
+        {
+          "current_key": "AIzaSyAKsdHOvMiRFoTpVY6ehXKoHQh73hIGsQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724740205785-d1bi7d9u5oi5d50skgogqr2b4pbpc3gt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techgoodway.blob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724740205785:android:47927f5dbdb0703074e2c8",
+        "android_client_info": {
+          "package_name": "com.mouveup.qhse"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNijtvSwTVMoT1c1MzMBXETox3NOh1O64"
+        },
+        {
+          "current_key": "AIzaSyAKsdHOvMiRFoTpVY6ehXKoHQh73hIGsQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724740205785-d1bi7d9u5oi5d50skgogqr2b4pbpc3gt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techgoodway.blob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724740205785:android:80f7cef59443f85b74e2c8",
+        "android_client_info": {
+          "package_name": "com.techgoodway.beafya"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724740205785-8q1756s3mnvcpeq2iqf90ibudq81hm21.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.techgoodway.beafya",
+            "certificate_hash": "a18584609f70392985ccb809e14168acad67933b"
+          }
+        },
+        {
+          "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNijtvSwTVMoT1c1MzMBXETox3NOh1O64"
+        },
+        {
+          "current_key": "AIzaSyAKsdHOvMiRFoTpVY6ehXKoHQh73hIGsQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724740205785-d1bi7d9u5oi5d50skgogqr2b4pbpc3gt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techgoodway.blob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724740205785:android:f8c49c192fe9c52174e2c8",
+        "android_client_info": {
+          "package_name": "com.techgoodway.blob"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNijtvSwTVMoT1c1MzMBXETox3NOh1O64"
+        },
+        {
+          "current_key": "AIzaSyAKsdHOvMiRFoTpVY6ehXKoHQh73hIGsQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724740205785-d1bi7d9u5oi5d50skgogqr2b4pbpc3gt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techgoodway.blob"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:724740205785:android:4785b4307a7a5b1c74e2c8",
+        "android_client_info": {
+          "package_name": "com.techgoodway.jax"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNijtvSwTVMoT1c1MzMBXETox3NOh1O64"
+        },
+        {
+          "current_key": "AIzaSyAKsdHOvMiRFoTpVY6ehXKoHQh73hIGsQI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "724740205785-fveisiriig0tlbkeql6ceo0ibphhhb9s.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "724740205785-d1bi7d9u5oi5d50skgogqr2b4pbpc3gt.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.techgoodway.blob"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,181 @@
+import FormType from '../../Forms/form.type';
+import * as Arrays from '../../Constants/constants.index';
+import StylesVariables from '../../Styles/app.style';
+import Localization from '../../Localization/localization';
+
+export const model = {
+    gender: '',
+    birthDate: null,
+    weight: '',
+    height: '',
+    smoker: '',
+    exercise: '',
+    children: '',
+    //pregnant: '',
+    pathology: '',
+    //antecedents: '',
+    //bloodGroup: -1,
+}
+
+export const inputModel = function(disabled = true) {
+    return [
+        { 
+            id: "gender",
+            type: FormType.Select,
+            title: Localization.word('gender'),
+            required: false,
+            placeholder: "Sélectionner votre choix",
+            disabled: disabled,
+            list: Arrays.getGendersArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+        },
+        { 
+            id: "birthDate",
+            type: FormType.Date,
+            title: Localization.word('birth_date'),
+            placeholder: "",
+            required: false,
+            disabled: disabled,
+            onChange: "OnChangeDate",
+        },
+        { 
+            id: "weight",
+            type: FormType.Number,
+            title: Localization.word('weight'),
+            placeholder: "",
+            required: false,
+            disabled: disabled,
+            onChange: "OnChangeText"
+        },
+        { 
+            id: "height",
+            type: FormType.Number,
+            title: Localization.word('height'),
+            placeholder: "",
+            required: false,
+            disabled: disabled,
+            onChange: "OnChangeText"
+        },
+        { 
+            id: "smoker",
+            type: FormType.Select,
+            title: Localization.word('smoker'),
+            placeholder: "Oui / Non",
+            required: false,
+            disabled: disabled,
+            list: Arrays.getYesNoArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            size: 'medium',
+        },
+        { 
+            id: "exercise",
+            type: FormType.Select,
+            title: Localization.word('sport_freq'),
+            placeholder: "Fréquence",
+            required: false,
+            disabled: disabled,
+            list: Arrays.getFreqSportArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            size: 'medium',
+        },
+        { 
+            id: "children",
+            type: FormType.Select,
+            title: Localization.word('how_m_kids'),
+            placeholder: "",
+            required: false,
+            disabled: disabled,
+            list: Arrays.getKidsArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            size: 'small',
+        },
+        /*{ 
+            id: "pregnant",
+            type: FormType.Select,
+            title: Localization.word('is_pregnant'),
+            placeholder: "Oui / Non",
+            required: false,
+            disabled: disabled,
+            list: Arrays.getYesNoArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            size: 'medium',
+        },
+        */
+        { 
+            id: "pathology",
+            type: FormType.Select,
+            title: Localization.word('pathology'),
+            placeholder: Localization.word('antecedent_placeholder'),
+            required: false,
+            disabled: disabled,
+            list: Arrays.getPathoArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            custom: true,
+            multiple: true,
+        },
+        /*{ 
+            id: "antecedents",
+            type: FormType.Select,
+            title: Localization.word('your_antecedents'),
+            placeholder: Localization.word('antecedent_placeholder'),
+            required: false,
+            disabled: disabled,
+            list: Arrays.getPathoArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            custom: true,
+            multiple: true,
+        },
+        { 
+            id: "bloodGroup",
+            type: FormType.Select,
+            title: Localization.word('blood_g'),
+            placeholder: "",
+            required: false,
+            disabled: disabled,
+            list: Arrays.getBloodArray().map( element => ({
+                "id": element.key,
+                "label": element.label,
+                "value": element.value,
+                "color": StylesVariables.inputTextColor,
+            })),
+            onChange: "OnChangeSelect",
+            custom: true,
+        },
+        */
+    ]
+}
